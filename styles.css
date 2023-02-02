@@ -32,7 +32,7 @@ nav{
     right: 75px;
      /* width: 50%;  */
 }
-button{
+.search{
     display: flex;
     justify-content: flex-end;
     position: absolute;
@@ -80,6 +80,7 @@ font-size: 125%;
     display:flex;
     align-items: center;
     padding-left: 1%;
+    text-decoration: none;
 }
 section{
     display:flex;
@@ -88,7 +89,31 @@ section{
     margin-left: 8%;
 }
 img{
-    width: 15%;
+    width: 55%;
     margin:3%;
     border: 1px solid black;
+}
+.selectedMovie{
+    width: 20%;
+}
+.details{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.description{
+    width: 30%;
+    margin-top: 5%;
+}
+.comment{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+}
+.commentSubmit{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:15%;
+    margin-top: 2%;
 }
