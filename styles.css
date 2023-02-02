@@ -81,3 +81,14 @@ font-size: 125%;
     align-items: center;
     padding-left: 1%;
 }
+section{
+    display:flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    margin-left: 8%;
+}
+img{
+    width: 15%;
+    margin:3%;
+    border: 1px solid black;
+}
